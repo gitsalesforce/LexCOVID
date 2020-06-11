@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main_parent{
+    max-width: 1339px;;
+    margin: 0px auto;;
+}
+.container-fluid.main{
+    position: relative; /* To make the navbar positions relative to this container */
+    padding: 0;
+  }
+  
+  .navbar-default {
+    background-image: none;
+    background-color: transparent; /* Make the menu become transparent */
+    border-radius: 0px;
+    border: 0;
+    box-shadow: none;
+    padding: 10px;
+    position: absolute; /* Make the menu out of the document flow so it can placed anywhere without disturbing other widgets */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10; /* If you delete this line, your menu link won't be clicked because it is behind the background. Applying this code bring the menu in front of the background */
+  }
+  .covertext {
+    position: absolute; /* To make the div to be place anywhere. It is out of the document flow */
+    top: 460px; /* The distance between the div with the top of document */
+    left: 0px; /* Make the div full width */
+    right: 0px; /* Make the div full width */
+  }
+  
+  .title {
+    font-family: Verdana;
+    font-weight: 600;
+    font-size: 60px;
+    color: #ffffff;
+    text-align: center;
+  }
+  .bottomtext{
+      position: relative;
+      bottom: 80px;
+      left: 0px;
+      right: 0px;
+  }
+  
+  .explore , .scroll_down {
+    text-align: center;
+    margin-top: 10px;
+  }
+  .explore .btn-lg,
+  .explore .btn-lg:hover {
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 20px;
+    background-image: none;
+    background-color: LIGHTgreen;
+    border-color: LIGHTgreen;
+    color: #ffffff;
+  }
+  .scroll_down .btn-sm,
+  .scroll_down .btn-sm:hover {
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 20px;
+    background-image: none;
+    background-color: #d4d4dc26;
+    color: #ffffff;
+    border-color:#d4d4dc26 ;
+  }
+  
+  
+  .btn,
+  .btn:hover {
+    border-radius: 0px;
+    background-image: none;
+    background-color: #FF4000;
+    border-color: #FF4000;
+    color: #ffffff;
+    margin-bottom: 20px;
+    box-shadow: none;
+    outline: none;
+  }
+  
+  .btn:focus,
+  .btn:active:focus,
+  .btn.active:focus,
+  .btn.focus,
+  .btn:active.focus,
+  .btn.active.focus {
+    color: #ffffff;
+    outline: none;
+  }
+  
+ 
